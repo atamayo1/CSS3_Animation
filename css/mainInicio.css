@@ -119,7 +119,23 @@ a{
 
 }
 .caja1:hover{
+animation-name: girando;
+animation-timing-function: linear;
+animation-iteration-count: 1;
+animation-duration: 3s;
+transform-style: preserve-3d;
 
+-webkit-animation-name: girando;
+-webkit-animation-timing-function: linear;
+-webkit-animation-iteration-count: 1;
+-webkit-animation-duration: 3s;
+-webkit-transform-style: preserve-3d;
+
+-moz-animation-name: girando;
+-moz-animation-timing-function: linear;
+-moz-animation-iteration-count: 1;
+-moz-animation-duration: 3s;
+-moz-transform-style: preserve-3d;
 }
 @keyframes inicio {
   from{opacity: 0;}
