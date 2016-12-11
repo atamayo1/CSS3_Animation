@@ -133,3 +133,15 @@ a{
   from{opacity: 0;}
   to {opacity: 1;}
 }
+@keyframes girando {
+  from{transform: rotateY(0deg);}
+  to{transform: rotateY(-360deg);}
+}
+@-moz-keyframes girando {
+  from{transform: rotateY(0deg);}
+  to{transform: rotateY(-360deg);}
+}
+@-webkit-keyframes girando {
+  from{transform: rotateY(0deg);}
+  to{transform: rotateY(-360deg);}
+}
